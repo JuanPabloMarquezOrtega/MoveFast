@@ -32,7 +32,7 @@ public class Reserva {
 			} catch (DataException e) {
 				System.err.println(e.getMessage());
 			}
-		if("LEASING".equals())
+		if("Leasing".equals(client.getClass()))
 			this.preu = preu-preu*0.1;
 		else 
 			this.preu=preu;
